@@ -74,3 +74,19 @@ Challenge (hard): Define an integer variable and print how many times it can be 
 
 print('\nTask 04')
 #write your code below
+
+
+'''
+####Task 05:
+Create variables for a city name, the high temperature for the day (in Fahrenheit),
+and the chance of rain as a percent (whole number, e.g. 75 for 75%).
+Then convert the temperature to Celsius using the formula: C = (F - 32) * 5/9
+Print a weather report sentence using your variables.
+
+Example output:
+  Weather Report for Austin:
+  High of 95°F (35.0°C) with a 20% chance of rain.
+'''
+
+print('\nTask 05')
+#write your code below
