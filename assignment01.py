@@ -1,92 +1,45 @@
-#Name:
+#Name: Example Solution
 #Assignment 01
-''' 
-####Task 01: 
-A) Print your name, age, and favorite show
-B) Create three variables and print them. 
-C) Print a sentence containing at least one of your variables.
-
-Example: print('My name is ', name)  
-'''
 
 print('Task 01')
-#write your code on the lines 14-21
 name = 'Mr. Smalley'
 age = 100
+favorite_show = 'Breaking Bad'
 print('My name is', name)
-
-
-
-
-
-
-
-
-
-'''
-#####Task 02: Create a variable for any dollar amount then create another variable for a percent discount in decimal form (10% => 0.10)
-Use the variables to determine the percentage of the amount.
-'''
+print('I am', age, 'years old')
+print('My favorite show is', favorite_show)
 
 print('\nTask 02')
-#complete the code on lines 31-34
-amount = 
-percent = 
-amount_off = 
+amount = 80
+percent = 0.25
+amount_off = amount * percent
 print("The amount off is:", amount_off)
 
-'''Optional Challenge: 
-Suppose amount_off represents an amount saved on a purchase. Show the final price after savings.
-'''
-
 print('Optional Challenge:')
-#complete the code on line 42
-amount_paid = 
+amount_paid = amount - amount_off
 print("The amount paid is:", amount_paid)
-'''
-
-
-Task03: 
-Define two sides of a rectangle and calculate the area of the rectangle. 
-'''
 
 print('\nTask 03')
-#complete the statements on lines 53-55
-width = 
-length = 
-area = 
+width = 5
+length = 10
+area = width * length
 print("The area is:", area)
 
-'''Optional Challenge: Use the same variables to determine the perimeter of the rectangle
-'''
-
 print('Optional Challenge:')
-#finish the statement on line 62
-perimeter = 
+perimeter = 2 * (width + length)
 print("The perimeter is:", perimeter)
-'''
-
-
-####Task 04:
-Define an integer variable and print what the remainder is when divided by 3.
-Challenge (hard): Define an integer variable and print how many times it can be divided by 3.
-'''
 
 print('\nTask 04')
-#write your code below
-
-
-'''
-####Task 05:
-Create variables for a city name, the high temperature for the day (in Fahrenheit),
-and the chance of rain as a percent (whole number, e.g. 75 for 75%).
-Then convert the temperature to Celsius using the formula: C = (F - 32) * 5/9
-Print a weather report sentence using your variables.
-
-Example output:
-  Weather Report for Austin:
-  High of 95°F (35.0°C) with a 20% chance of rain.
-'''
+number = 17
+remainder = number % 3
+print("The remainder of", number, "divided by 3 is:", remainder)
+times_divided = number // 3
+print(number, "can be divided by 3", times_divided, "times")
 
 print('\nTask 05')
-#write your code below
+city = 'Austin'
+high_f = 95
+chance_of_rain = 20
+high_c = (high_f - 32) * 5 / 9
+print('Weather Report for', city + ':')
+print('High of ' + str(high_f) + '°F (' + str(round(high_c, 1)) + '°C) with a ' + str(chance_of_rain) + '% chance of rain.')
